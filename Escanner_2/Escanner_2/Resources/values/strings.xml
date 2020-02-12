@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Escanner_2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="Categoria">
+      <item>Categoria</item>
+      <item>Abarrotes</item>
+      <item>Surtidores</item>
+      <item>Dulceria</item>
+      <item>Papeleria</item>
+      <item>Frutas y Verduras</item>
+    </string-array>
+</resources>

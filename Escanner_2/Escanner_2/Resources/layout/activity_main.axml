@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1">
+		
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_weight="1.1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/linearLayout2">
+			<Button
+				android:text="Tablas"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/btnTablas" />
+			<Button
+				android:text="Menu"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/btnMenu" />
+		</LinearLayout>
+		<TextView
+			android:text=""
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/textView1" />
+		<ImageButton
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_weight=".7"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/imgBtnPrincipal" />
+		<TextView
+			android:text=""
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_weight=".8"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/textView1" />
+	</LinearLayout>
+	
+
+  
+	
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+android.app.Application
+Escanner_2.Escanner_2

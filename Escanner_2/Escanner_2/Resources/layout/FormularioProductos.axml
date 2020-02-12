@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text=" "
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_weight="1.8"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/textView2" />
+	<Button
+		android:text="Escanner"
+		android:layout_weight="1.6"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/btnEscanearForm" />
+	<ScrollView
+		android:layout_weight=".8"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/scrollView1">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/linearLayout3" >
+
+			<TextView
+				android:text="Id del producto"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/textView1" />
+			<EditText
+				android:hint="Id"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:inputType="numberDecimal"
+				android:id="@+id/edtId" />
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout2">
+					
+				<TextView
+					android:text=" "
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="1"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:id="@+id/textView2" />
+				<Button
+					android:text="Buscar"
+					android:layout_weight="1"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:id="@+id/btnBuscarForm" />
+				<TextView
+					android:text=" "
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="1"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:id="@+id/textView2" />
+			</LinearLayout>
+			<EditText
+				android:gravity="center"
+				android:hint="Nombre"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/edtNom" />
+			<EditText
+				android:gravity="center"
+				android:hint="Precio Compra"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:inputType="numberDecimal"
+				android:id="@+id/edtPrecioC" />
+			<EditText
+				android:gravity="center"
+				android:hint="Precio Venta"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:inputType="numberDecimal"
+				android:id="@+id/edtPrecioV" />
+			<Spinner
+				android:gravity="center"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/spinner" />
+			<EditText
+				android:gravity="center"
+				android:hint="Ultima modificacion"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/edtFecha" />
+			
+
+			</LinearLayout>
+	
+
+	</ScrollView>
+	
+	<Button
+		android:text="Agregar"
+		android:layout_weight="1.6"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/btnAgregarForm" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_weight="1.6"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1">
+		<Button
+			android:text="Modificar"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/btnModificarForm" />
+		<Button
+			android:text="Borrar"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/btnBorrarForm" />
+	</LinearLayout>
+	
+
+
+</LinearLayout>

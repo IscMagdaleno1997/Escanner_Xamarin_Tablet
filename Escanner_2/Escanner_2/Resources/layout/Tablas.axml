@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+>
+	<Button
+		android:text="Todo"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/btnTodo"
+		android:layout_marginRight="40dp"
+		android:layout_marginLeft="40dp"
+		android:layout_marginTop="40dp"
+		android:layout_marginBottom="20dp" />
+	<TextView
+		android:text=""
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_weight="1.2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/textView2" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_weight="1.1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1">
+		<Button
+			android:text="Surtidores"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/btnSurtidores"
+			android:layout_marginLeft="0dp"
+			android:layout_marginRight="5dp"
+			android:layout_marginBottom="10dp" />
+		<Button
+			android:text="Dulceria"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:layout_marginBottom="10dp"
+			android:id="@+id/btnDulceria" />
+		<Button
+			android:text="Papeleria"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="0dp"
+			android:layout_marginBottom="10dp"
+			android:id="@+id/btnPapeleria" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_weight="1.1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1">
+		<Button
+			android:text="Frutas y verduras"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/btnFrutVerd"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="10dp" />
+		<Button
+			android:text="Abarrotes"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="20dp"
+			android:id="@+id/btnAbarrotes"
+			android:layout_marginTop="10dp" />
+	</LinearLayout>
+	<TextView
+		android:text=""
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/textView1" />
+
+
+	
+
+</LinearLayout>
